@@ -13,7 +13,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "parse5": "^2.1.5",
+    "parse5": "^2.1.5"
   },
   "devDependencies": {
       "chai": "^3.5.0",
