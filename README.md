@@ -1,6 +1,6 @@
 # eslint-plugin-vue
 
-eslint plugin for vue component
+eslint plugin for vue component files (I mean, `.vue` files).
 
 ## Installation
 
@@ -29,23 +29,3 @@ Add `vue` to the plugins section of your `.eslintrc` configuration file. You can
     ]
 }
 ```
-
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "vue/rule-name": 2
-    }
-}
-```
-
-## Supported Rules
-
-* Fill in provided rules here
-
-
-
-
-
