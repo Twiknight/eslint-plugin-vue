@@ -28,4 +28,15 @@ describe('should work with vue', function (done) {
     expect(errors[0]).to.have.property('ruleId', 'semi')
     done()
   })
+
+  // issue: https://github.com/Twiknight/eslint-plugin-vue/issues/1
+  it('should work with vue files without script tag', function () {
+    cli.addPlugin('eslint-plugin-vue', plugin)
+    const filename = Path.join(__dirname, 'no.script.vue')
+
+    const report = cli.executeOnFiles([filename])
+    const errors = report.results[0].messages
+
+    expect(errors).to.have.lengthOf(0)
+  })
 })
