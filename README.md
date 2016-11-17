@@ -1,3 +1,11 @@
+
+# DEPRECATED!
+
+This project is deprecated and no longer maintained!
+
+Please using the official linter: [https://github.com/vuejs/eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
+
+
 # eslint-plugin-vue
 
 eslint plugin for vue component files (I mean, `.vue` files).
