@@ -3,7 +3,7 @@
 
 This project is deprecated and no longer maintained!
 
-Please using the official linter: [https://github.com/vuejs/eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
+Please use the official linter: [https://github.com/vuejs/eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
 
 
 # eslint-plugin-vue
